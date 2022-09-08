@@ -1,4 +1,4 @@
-# trybe-exercices
+# trybe-exercises
 
 Contém todas as atividades desenvolvidas por [mim](https://www.linkedin.com/in/guilherme-araujo-644b6419b/) durante minha tragetória na [Trybe](https://www.betrybe.com/) 🚀
 
