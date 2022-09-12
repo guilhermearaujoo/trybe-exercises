@@ -9,7 +9,7 @@ Contém todas as atividades desenvolvidas por [mim](https://www.linkedin.com/in/
 - [x] 1.3 - Fundamentos do Desenvolvimento Web
 - [x] 1.3 - Introdução - Unix & Shell
 - [x] 1.3 - Unix & Bash - Parte 1
-- [ ] 1.4 - Unix & Bash - Parte 2
+- [x] 1.4 - Unix & Bash - Parte 2
 ### Bloco 2: Git, GitHub e Internet
 - [ ] 2.1 - Git & GitHub - O que é e para que serve
 - [ ] 2.2 - Git & GitHub - Entendendo os comandos
