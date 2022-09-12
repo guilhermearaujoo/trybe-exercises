@@ -50,3 +50,6 @@ _O git fetch é uma maneira mais segura em relação ao git pull pois não reali
 * Primeiro baixo o que foi alterado do repositorio remoto - git fetch 
 * Depois verifico o que foi alterado - git log origin/main
 * depois faco um merge disso - git merge origin/main
+
+Para relembrar o git: 
+https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
