@@ -20,7 +20,7 @@ Como enviar um repositorio local para meu github?
 Como trabalhar em conjunto e em projetos?
 
 ```
-É uma boa prátoca sempre criar novas branchs para atualizações
+É uma boa prática sempre criar novas branchs para atualizações
 Feito a nova branch voce pode fazer um push
 O dono do projeto pode aceitar esse pull request 
 Se for aceito ele também pode fazer um merge com branch principal
