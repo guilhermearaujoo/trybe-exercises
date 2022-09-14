@@ -1,0 +1,8 @@
+Escrevemos endereço no Navegador (cliente) >
+Navegador é direcionado por meio do ISP para um servidor DNS>
+O DNS converte o dominio para o endereço IP>
+ISP retorna o endereço para o cliente>
+Cliente faz uma requisição HTTP ao servidor>
+Servidor retorna uma resposta HTTP com cópia da página solicitada ou mensagem de erro (404).
+Cliente renderiza a página>
+Recebemos o conteúdo visual.
