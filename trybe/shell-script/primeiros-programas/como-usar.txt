@@ -1,5 +1,0 @@
-Para utilizar esse script 
-primeiro você precisa alterar a permissão dele, 
-caso ele não seja um executável
-
-para isso use 'chmod u+x testa-arquivos.sh'
