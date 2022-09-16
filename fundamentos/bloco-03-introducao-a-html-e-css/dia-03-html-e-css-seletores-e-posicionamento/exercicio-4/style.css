@@ -1,0 +1,48 @@
+div:hover {
+    border: 5px solid black;
+}
+
+#primaria {
+    background-color: #FE9000;
+}
+
+#secundaria {
+    background-color: #006C67;
+}
+
+#complementar {
+    background-color: #90DDF0;
+    padding: 20px 0;
+}
+
+#clara {
+    background-color: #F0EDEE;
+}
+
+#escura {
+    background-color: #0A090C;
+}
+
+#h3-primaria {
+    color: black;
+}
+
+#h3-secundaria {
+    color: white;
+}
+
+#h3-complementar {
+    color: blue;
+}
+
+#h3-escura {
+    color: green;
+}
+
+#h3-clara {
+    color: red;
+}
+
+div:nth-child(odd) {
+    font-style: italic;
+}

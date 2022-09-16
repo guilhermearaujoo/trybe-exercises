@@ -16,3 +16,10 @@ More CSS tags
 - z-index
 - float
 
+Multiplos Seletores (,)
+
+Subclassses (:)
+ - hover
+
+Transition and transform
+
