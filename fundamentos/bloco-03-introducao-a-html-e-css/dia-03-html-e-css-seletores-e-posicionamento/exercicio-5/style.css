@@ -1,0 +1,60 @@
+ol li{
+    background-color: yellow;
+}
+
+ol li:nth-child(even){
+    color: green;
+}
+
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+.titulo {
+    color: red;
+}
+
+.titulo em {
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+.programacao li:nth-child(-n+3){
+    color: blue;
+}
+
+.pink-bg {
+    background-color: pink;
+}
+
+.links a:hover{
+    font-weight: bold;
+}
+
+.links li:nth-child(1) a{
+    color: orange;
+}
+
+.links li:nth-child(2) a{
+    color: green;
+}
+
+.links li:nth-child(3) a{
+    color: black;
+}
+
+.links li:nth-child(4) a{
+    color: yellow;
+}
+
+.links li:nth-child(5) a{
+    color: green;
+}
