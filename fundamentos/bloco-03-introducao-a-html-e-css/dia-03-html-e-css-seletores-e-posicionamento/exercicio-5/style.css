@@ -35,26 +35,22 @@ li em{
     background-color: pink;
 }
 
-.links a:hover{
-    font-weight: bold;
-}
-
-.links li:nth-child(1) a{
+#links li a[href*="stackoverflow"] {
     color: orange;
+  }
+  
+#links li a[href*="w3schools"] {
+color: green;
 }
 
-.links li:nth-child(2) a{
-    color: green;
+#links li a[href*="mozilla"] {
+color: black;
 }
 
-.links li:nth-child(3) a{
-    color: black;
+#links li a[href*="devdocs"] {
+color: yellow;
 }
 
-.links li:nth-child(4) a{
-    color: yellow;
-}
-
-.links li:nth-child(5) a{
-    color: green;
+#links li a[href*="trybe"] {
+color: green;
 }
