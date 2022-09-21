@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+main {
+    width: 70%;
+    display: inline-block;
+    background-color: greenyellow;
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 0;
+    width: 28%;
+    margin: 0;
+    border: none;
+}
+
+nav {
+    background-color: yellowgreen;
+}
+ul {
+    margin: 0;
+    text-align: center;
+}
+
+ul li{
+    display: inline-block;
+    padding: 2% 5%;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    text-align: center;
+}
+
+article section{
+    text-align: center;
+}
+
+article section div{
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+img {
+    width: 80%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+
+#references {
+    background-color: aquamarine;
+    padding-top: 20px;
+}
+
+footer{
+    height: 50px;
+    text-align: center;
+}
+footer p {
+    vertical-align: middle;
+}
