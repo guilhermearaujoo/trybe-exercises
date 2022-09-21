@@ -1,0 +1,25 @@
+Aprendi sobre a tag DIV e SPAN  
+
+Propriedades do CSS
+
+- overflow
+- height 
+- width
+- border (width, style and color)
+
+Box-model (margin, border, padding, content)
+
+More CSS tags
+
+- position
+- left, rigth, top and bottom
+- z-index
+- float
+
+Multiplos Seletores (,)
+
+Subclassses (:)
+ - hover
+
+Transition and transform
+
