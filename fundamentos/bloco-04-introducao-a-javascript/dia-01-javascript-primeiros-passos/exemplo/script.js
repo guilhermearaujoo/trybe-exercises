@@ -9,3 +9,4 @@ let myName = "Guilherme";
 
 console.log(age);
 console.log("Hulk");
+// alert('Guilherme é o melhor!'); //Para o HTML
