@@ -39,9 +39,28 @@ function decToRoman(converter){
     }
   }
 
+  //verifica se é um numero ja conhecido
+  if(listConverter.length == 2){
 
-  return true;
+    let answer = listConverter.join('');
+    if(answer === "XM"){
+      return "ERROR: Must be a valid a ROMAN NUMBER, MX not allowed";
+    }
+
+    for(key in numRomanos) {
+      if(answer === key){
+        return numRomanos[key];
+      }
+    }
+  }
+
+  let sum = 0;
+  for(index of listConverter){
+    sum += numRomanos[index];
+  }
+
+  return sum;
   
 }
 
-console.log(decToRoman('XMI'));
+console.log(decToRoman('XIII'));
