@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+
+#container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+#header-container {
+  color: white;
+  padding: 20px;
+  background-color: #00B069;
+}
+
+.emergency-tasks {
+  display: inline-block;
+  height: 400px;
+  margin: 56px 0;
+  width: 400px;
+  background-color: #FF9F84;
+}
+
+.emergency-tasks div {
+  height: 198px;
+}
+.emergency-tasks h3 {
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #B018F4;
+}
+
+.no-emergency-tasks {
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+  background-color: #F9DB5E;
+}
+
+.no-emergency-tasks div {
+  height: 198px;
+}
+
+.no-emergency-tasks h3 {
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #232525;
+}
+
+#footer-container {
+  color: white;
+  font-weight: 700;
+  padding: 15px;
+  text-align: center;
+  background-color: #003533;
+}
