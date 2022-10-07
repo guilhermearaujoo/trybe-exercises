@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <header><h1>TRYBETRIP</h1></header>
+  <form action="" method="get">
+    <section id="inside">
+      <section>
+        <label for="fullName">Nome completo
+          <input type="text" name="nome-completo" id="fullName" required>
+        </label>
+      </section>
+      <section>
+        <label for="e-mail">Email
+          <input type="email" required name="email" id="e-mail">
+        </label>
+      </section>
+      <section>
+        <p>Destino preferido</p>
+        <input type="radio" name="destino-preferido" value="cidade" id="cidade"> 
+        <label for="cidade">Cidade</label>
+  
+        <input type="radio" name="destino-preferido" value="campo" id="campo"> 
+        <label for="campo">Campo</label>
+  
+        <input type="radio" name="destino-preferido" value="praia" id="praia"> 
+        <label for="praia">Praia</label>
+  
+        <input type="radio" name="destino-preferido" value="montanhas" id="montanhas"> 
+        <label for="montanhas">Montanhas</label>
+      </section>
+  
+      <section>
+        <p>Porquê você deveria ser a pessoa desenvolvedora a ganhar a viajem da trybe?</p>
+        <textarea name="text-win" id="texto" cols="30" rows="10" maxlength="500"></textarea>
+      </section>
+      
+      <section>
+        <label for="mensagens">
+          Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+          <input type="checkbox" name="send-news" id="mensagens">
+        </label>
+      </section>
+  
+      <section>
+        <label for="fotos">
+          Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+          <input type="checkbox" name="use-pictures" id="fotos">
+        </label>
+      </section>
+    </section>
+
+    <section id="outside">
+      <button type="submit" id="send">Enviar</button>
+      <button type="reset" id="reset">Apagar</button>
+    </section>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
