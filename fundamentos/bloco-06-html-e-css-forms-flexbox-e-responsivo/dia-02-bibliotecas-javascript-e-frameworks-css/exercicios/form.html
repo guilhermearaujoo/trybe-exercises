@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="dist/css/DatePickerX.min.css"> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" method="get" id="form">
+      <section id="inside" class="container-sm">
+        <header>
+          <h1 class="h1">TRYBETRIP</h1>
+        </header>
+        <section>
+          <label for="fullName" class="form-label">
+            Nome completo
+            <input type="text" name="nome-completo" id="fullName" required class="form-control"/>
+          </label>
+        </section>
+        <section>
+          <label for="e-mail"
+            class="form-label">Email
+            <input type="email" required name="email" id="e-mail" class="form-control" class="form-control bg-dark"/>
+        </section>
+        <section>
+          <p class="form-label">Destino preferido</p>
+          <section>
+            <input
+            type="radio"
+            name="destino-preferido"
+            value="cidade"
+            id="cidade"
+            class="form-check-input "
+          />
+          <label for="cidade" class="form-check-label">Cidade</label>
+
+          <input
+            type="radio"
+            name="destino-preferido"
+            value="campo"
+            id="campo"
+            class="form-check-input"
+          />
+          <label for="campo" class="form-check-label">Campo</label>
+          </section>
+
+          <section>
+            <input
+            type="radio"
+            name="destino-preferido"
+            value="praia"
+            id="praia"
+            class="form-check-input"
+          />
+          <label for="praia" class="form-check-label">Praia</label>
+
+          <input
+            type="radio"
+            name="destino-preferido"
+            value="montanhas"
+            id="montanhas"
+            class="form-check-input"
+          />
+          <label for="montanhas" class="form-check-label">Montanhas</label>
+      
+          </section>
+        </section>
+
+        <section>
+          <p>
+            Porquê você deveria ser a pessoa desenvolvedora a ganhar a viajem da
+            trybe?
+          </p>
+          <textarea
+            name="text-win"
+            id="texto"
+            cols="30"
+            rows="10"
+            maxlength="500"
+          ></textarea>
+        </section>
+
+        <section>
+          <label for="mensagens">
+            Gostaria de receber outras incríveis oportunidades oferecidas pela
+            Trybe?
+            <input type="checkbox" name="send-news" id="mensagens" class="form-check-input"/>
+          </label>
+        </section>
+
+        <section>
+          <label for="fotos">
+            Concordo que imagens das minhas férias poderão ser usadas na
+            divulgação de concursos futuros.
+            <input type="checkbox" name="use-pictures" id="fotos" class="form-check-input"/>
+          </label>
+        </section>
+
+        <section>
+          <p>Qual a melhor data para realizar sua viagem?</p>
+          <input type="date" name="data" id="date-trip" class="form-control"/>
+        </section>
+
+        <section id="outside">
+          <button type="submit" id="send" class="btn btn-success">Enviar</button>
+          <button type="reset" id="reset" class="btn btn-light">Apagar</button>
+        </section>
+      </section>
+    </form>
+    <!-- <script src="dist/js/DatePickerX.min.js"></script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
