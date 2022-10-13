@@ -1,0 +1,201 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  background-color: #383A59;
+  color: aliceblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h2, h3 {
+  text-align: center;
+  color: #50FA7B;
+}
+header {
+  background-color: #151C17;
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header nav {
+  position: absolute;
+  display: flex;
+  flex-flow: column;
+  visibility: hidden;
+  width: 100%;
+}
+
+header ul {
+  padding: 0;
+  margin: 0;
+}
+
+header li {
+  padding: 10px 0;
+  text-align: center;
+  list-style-type: none;
+  color: #50FA7B;
+}
+
+header button {
+  margin-top: 20px;
+  padding: 2px 40px;
+  border-radius: 67px;
+  background-color: transparent;
+  font-weight: 500;
+  border: 2px solid #50FA7B;
+  color: #50FA7B;
+}
+
+.asides {
+  margin: 20px 0;
+}
+
+.asides h2 {
+  margin: 15px;
+}
+
+.aside-one ul, .aside-two ul {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;;
+}
+
+.aside-one li, .aside-two li{
+  text-align: left;
+  list-style-type: none;
+}
+
+h1, h3 {
+  font-size: 20px;
+  width: 100%;
+  background-color: #151C17;
+  padding: 20px;
+}
+
+.main-content p, footer p{
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+footer h3{
+  margin: 20px 0;
+}
+footer p{ 
+  text-align: center;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 600px) {
+  header button {
+    display: none;
+    flex-shrink: 1;
+  }
+
+  header {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header div {
+    align-self: center;
+  }
+
+  header nav { 
+    position: relative !important;
+    display: flex !important;
+    flex-flow: row !important;
+    visibility: visible !important; 
+    justify-content: center !important;
+    width: auto !important;
+    flex-grow: 1 !important;
+  }
+
+  #paragra {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+    flex-flow: row;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  .asides {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-evenly;
+  }
+
+  .aside-one, .aside-two {
+    width: 50%;
+  }
+
+  .aside-one ul, .aside-two ul{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  h2, h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page {
+    display: flex;
+    flex-flow: row nowrap;
+    
+  }
+
+  .main-content {
+    order: -1;
+  }
+
+  .main-content h1 {
+    background-color: transparent;
+    font-size: 40px;
+  }
+
+  .asides {
+    flex-direction: column;
+    justify-content: flex-start;
+    width: auto;
+    margin: 0 20px;
+    border-left: 2px solid #151C17;
+  }
+
+  .aside-one, .aside-two {
+    width: 100%;
+  }
+
+  .aside-one ul, .aside-two ul {
+    margin: 0;
+    padding: 0;
+  } 
+
+  h3 {
+    margin: 0;
+  }
+
+  footer p {
+    width: 50%;
+  }
+}
