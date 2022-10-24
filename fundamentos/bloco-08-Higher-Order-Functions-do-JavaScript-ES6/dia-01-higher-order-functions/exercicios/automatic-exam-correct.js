@@ -18,17 +18,20 @@ const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
 const checkAnswer = (correct, given) => {
-  let result = 0;
-  for(let index = 0; index < correct.length; index += 1) {
-    if(given[index] !== 'N.A') 
-      (correct[index] === given[index]) ? result += 1 : result -= 0.5
-  }
-
-  (result >= 0) ? result = result : result = result*(-1)  
-
-  return result
+   if (correct === given) {
+    return 1;
+   } else if (given === 'N.A') {
+    return 0;
+   }
+   return -0.5;
  }
 
- const test = (correctAnswers, givenAnswers, func) => func(correctAnswers, givenAnswers);
+ const test = (correctAnswers, givenAnswers, func) => {
+  let result = 0;
+  for (let index = 0; index < givenAnswers.length; index += 1) {
+    result += func(correctAnswers[index], givenAnswers[index]);
+  }
+  return result;
+ }
 
  console.log(`TEST RESULT: ${test(RIGHT_ANSWERS, STUDENT_ANSWERS, checkAnswer)}`);
