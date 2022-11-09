@@ -1,16 +1,14 @@
 {
-  "name": "form-validator",
+  "name": "trybe-way",
   "version": "1.0.0",
-  "description": "",
+  "description": "trybe way to resolve the same project",
   "main": "index.js",
   "scripts": {
     "dev": "vite --open",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "eslint-config-trybe-frontend": "^1.3.1",
     "validator": "^13.7.0",
