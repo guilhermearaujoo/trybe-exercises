@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Form</h1>
+      <label for="input-text">
+        Type a phrase, select the text and hit submit!
+      </label>
+      <div class="validation">
+        <input type="text" id="input-text" />
+        <select name="test" id="selected">
+          <option value="isAlpha">is Alpha</option>
+          <option value="isAlphaNumeric">is AlphaNumeric</option>
+          <option value="isEmpty">is Empty</option>
+          <option value="isHexColor">is Hex Color</option>
+          <option value="isEmail">is Email</option>
+        </select>
+      </div>
+      <h3>...</h3>
+      <button type="submit" class="btn-submit">validate!</button>
+    </form>
+    <script src="./src/main.js" type="module"></script>
+  </body>
+</html>
