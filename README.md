@@ -41,56 +41,56 @@ Contém todas as atividades desenvolvidas por [mim](https://www.linkedin.com/in/
 - [x] 5-3: _JavaScript - Eventos_
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: _[Projeto - Arte com Pixels](https://github.com/tryber/sd-027-a-project-pixels-art/pull/97#issuecomment-1267803636)_
-- [ ] 5-6: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-027-a-project-todo-list/pull/9#issuecomment-1269289668)_
-- [ ] 5-7: _[Projeto - Meme Generator](https://github.com/tryber/sd-027-a-project-meme-generator/pull/3#issuecomment-1270531889)_
+- [x] 5-6: _[Projeto - Lista de tarefas](https://github.com/tryber/sd-027-a-project-todo-list/pull/9#issuecomment-1269289668)_
+- [x] 5-7: _[Projeto - Meme Generator](https://github.com/tryber/sd-027-a-project-meme-generator/pull/3#issuecomment-1270531889)_
 - [x] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/tryber/sd-027-a-project-color-guess/pull/7#issuecomment-1271794384)_
-- [ ] 5-7: _[Projeto - Carta Misteriosa](https://github.com/tryber/sd-027-a-project-carta-misteriosa/pull/5#issuecomment-1272077596)_
+- [x] 5-7: _[Projeto - Carta Misteriosa](https://github.com/tryber/sd-027-a-project-carta-misteriosa/pull/5#issuecomment-1272077596)_
 
 ##### Seção 6: HTML & CSS avançado
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Trybewarts](https://github.com/tryber/sd-027-a-project-trybewarts/pull/9#issuecomment-1279645210)_
+- [x] 6-1: _HTML & CSS - Forms_
+- [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+- [x] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-6: _[Projeto - Trybewarts](https://github.com/tryber/sd-027-a-project-trybewarts/pull/9#issuecomment-1279645210)_
 
 ##### Seção 7: JavaScript ES6 & Testes Unitários
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
-- [ ] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-027-a-project-js-unit-tests/pull/63#issuecomment-1286204770)_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [x] 7-3: _Primeiros passos em Jest_
+- [x] 7-4: _[Projeto - JavaScript Testes Unitários](https://github.com/tryber/sd-027-a-project-js-unit-tests/pull/63#issuecomment-1286204770)_
 
 ##### Seção 8: Higher Order Functions do JavaScript ES6
 
-- [ ] 8-1: _Introdução a Higher Order Functions_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
-- [ ] 8-4: _JavaScript ES6 - Higher Order Functions- reduce_
-- [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ ] 8-6: _[Projeto - Zoo functions](https://github.com/tryber/sd-027-a-project-zoo-functions/pull/14#issuecomment-1297992459)_
+- [x] 8-1: _Introdução a Higher Order Functions_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [x] 8-4: _JavaScript ES6 - Higher Order Functions- reduce_
+- [x] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+- [x] 8-6: _[Projeto - Zoo functions](https://github.com/tryber/sd-027-a-project-zoo-functions/pull/14#issuecomment-1297992459)_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Seção 1: JavaScript e Testes Assíncronos
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 9-3: _Jest - Testes Assíncronos_
+- [x] 9-4: _[Projeto - Carrinho de Compras]()_
 
 ##### Seção 2: Introdução à React
 
-- [ ] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Sistema Solar]()_
+- [x] 10-1: _'Hello, world!' no React!_
+- [x] 10-2: _Componentes React_
+- [x] 10-3: _[Projeto - Sistema Solar]()_
 
 ##### Seção 3: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 11-1: _Components com estado e eventos_
-- [ ] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [x] 11-1: _Components com estado e eventos_
+- [x] 11-2: _Formulários no React_
+- [x] 11-3: _[Projeto - Tryunfo]()_
 
 ##### Seção 4: Ciclo de Vida de Componentes e React Router
 
